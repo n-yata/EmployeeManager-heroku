@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+html{
+	font-family: sans-serif;
+}
+body{
+	background-color: #f5f5dc;
+	writing-mode: horizontal-tb;
+}
+h1{
+	color: #3f5170;
+	border-bottom: 3px dotted #3f5170;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	text-align: left;
+}
+p{
+	font-size: 20px;
+}
+
+.list{
+	border-collapse: collapse;
+	width: 90%;
+	border-spacing: 0;
+	background-color: #ddffff;
+}
+.list th, .list td{
+	padding: 8px;
+	border: 2px solid #bec2c7;
+	text-align: left;
+}
+.list th{
+	background-color: #cbffd3;
+	color: #3f5170;
+	vertical-align: top;
+}
+.list tr:nth-child(even){
+	background-color: #fff;
+}
+
+/* ボタンに関するCSS */
+input[type="submit"]{
+	font-size: 15px;
+	padding: 5px 0 5px;
+}
+input[type="submit"]:hover{
+	background-color: #cccccc;
+	font-size: 15px;
+	padding: 5px 0 5px;
+}
+.button{
+	background-color: #f0e68c;
+	margin: 8px;
+	float: left;
+	width: 20%;
+}
+.edit{
+	background-color: #66ccff;
+	width: 100%;
+}
+.delete{
+	background-color: #ff99cc;
+	width: 100%;
+}
+.confing{
+	background-color: #66ccff;
+	margin: 8px;
+	float: left;
+	width: 15%;
+
+
+}
+.cancel{
+	background-color: #ff99cc;
+	margin: 8px;
+	float: left;
+	width: 15%;
+}
+input[type="text"]{
+	font-size: 20px;
+}
+select{
+	background-color: white;
+	border: thin solid gray;
+	border-radius: 4px;
+	font-size: 20px;
+
+}
+.success{
+	color: blue;
+}
+.error{
+	color: red;
+}
+.contents{
+	font-size: 20px;
+	padding-left: 50px;
+}
